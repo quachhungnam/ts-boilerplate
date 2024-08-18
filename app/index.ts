@@ -1,15 +1,10 @@
-function main() {
-    const user = {
-        name: 'Taylor',
-        age: 18
-    }
-    if (user.age > 18) {
-        console.log('adult')
-    }
-
+function f(a: number) {
+  console.log('aa');
+  return a;
 }
 
-(() => {
-    console.log('server starting')
-    main()
-})()
+function main() {
+  f(10);
+}
+
+main();
